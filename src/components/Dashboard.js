@@ -32,9 +32,9 @@ const Dashboard = () => {
           id: doc.id,
           ...docData,
           clockInDate: clockInTime.toLocaleDateString(),
-          clockInTime: clockInTime.toLocaleDateString(),
+          clockInTime: clockInTime.toLocaleTimeString(),
           clockOutDate: clockOutTime.toLocaleDateString(),
-          clockOutTime: clockOutTime.toLocaleDateString(),
+          clockOutTime: clockOutTime.toLocaleTimeString(),
           hoursWorked: hoursWorked,
         };
       });
